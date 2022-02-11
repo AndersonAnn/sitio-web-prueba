@@ -1,0 +1,62 @@
+/*voy ha fonts.google.com > busca fuente > select style >(opcion1: linkHTML; opcion2: import)
+Reglas CSS para especificar familias:
+font-family: 'Titillium Web', sans-serif;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap');
+body{
+	font-family: 'Titillium Web', sans-serif;
+}
+header{
+	margin-top: 75px;
+}
+/*esto es para cuando se muestra la imagen mas granfr que content*/
+.smartphone1, .smartphone2{
+	width: 100%;
+}
+
+#testimonial{
+	background: #f1f1f1;
+	padding: 50px 0 30px 0;
+	text-align: center;
+	margin-top: 40px;
+}
+
+#info-two{
+	background: #f1f1f1;
+}
+
+footer{
+	background:url(../img/smartphone3.png);
+}
+.header-btn-ok{
+	font-weight: bold;
+}
+#header{
+	background: url("../img/pc-fondo2.jpg");
+	height: 500px;
+}
+
+.hd1 h1, .hd1 h2{
+  height: 10%;
+  background-color: #48cfae;
+  border: 9px solid transparent;
+  position: relative;
+  text-align: center;
+  font-weight: bold;
+}
+.hd1 h1::after, .hd1 h2::after{
+  content: "";
+  position: absolute;
+  border: 8px solid #48cfae;
+  top: -20px;
+  left: -20px;
+  right: -20px;
+  bottom: -20px;
+}
+.hd1 h1{
+	margin-top: 20%
+}
+.hd1 h2{
+	width: 50%;
+	margin-bottom: 0
+}
