@@ -5,6 +5,7 @@ font-family: 'Titillium Web', sans-serif;
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap');
 body{
 	font-family: 'Titillium Web', sans-serif;
+	background: radial-gradient(#2b0450, #3c5472, black);
 }
 header{
 	margin-top: 75px;
@@ -65,4 +66,30 @@ footer{
 	background: #48cfae;
 	font-family: cursive;
 	font-weight: bold;
+}
+.card-body {
+    background: #4f548794;
+    border: 2px solid #791487;
+}
+section#info-one {
+    background: #456e6c;
+    color: #d3b4b4;
+    font-family: cursive;
+}
+a.btn.btn-outline-secondary.btn-lg {
+    background: #351e7c69;
+    color: #bfa4a4;
+    border: 2px solid #8762d1;
+}
+section#info-quienes-somos {
+    background: #3e3846;
+    color: #c1acac;
+    font-family: fantasy;
+}
+
+section#testimonial {
+    background: linear-gradient(45deg, #765968, #80e7cfad);
+    border: 10px solid #c3d0d1;
+    border-radius: 50px;
+    font-family: fangsong;
 }
